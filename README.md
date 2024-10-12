@@ -24,18 +24,18 @@ Containers take up less space than VMs (container images are typically tens of M
 ## The Docker daemon 
 The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.  
 ### Commands:   
-  build       Build an image from a Dockerfile  
-  history     Show the history of an image  
-  import      Import the contents from a tarball to create a filesystem image  
-  inspect     Display detailed information on one or more images  
-  load        Load an image from a tar archive or STDIN  
-  ls          List images  
-  prune       Remove unused images  
-  pull        Download an image from a registry  
-  push        Upload an image to a registry  
-  rm          Remove one or more images  
-  save        Save one or more images to a tar archive (streamed to STDOUT by default)  
-  tag         Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE  
+  build       -Build an image from a Dockerfile  
+  history     -Show the history of an image  
+  import      -Import the contents from a tarball to create a filesystem image  
+  inspect     -Display detailed information on one or more images  
+  load        -Load an image from a tar archive or STDIN  
+  ls          -List images  
+  prune       -Remove unused images  
+  pull        -Download an image from a registry  
+  push        -Upload an image to a registry  
+  rm          -Remove one or more images  
+  save        -Save one or more images to a tar archive (streamed to STDOUT by default)  
+  tag         -Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE  
 
 Other reference: https://www.youtube.com/watch?v=H8Lyj2D_cWo  
 https://youtu.be/C-bX86AgyiA?si=UQKV5zH3SfmUxjpU  
