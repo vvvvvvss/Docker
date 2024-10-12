@@ -19,7 +19,8 @@ A Docker container image is a lightweight, standalone, executable package of sof
 Containers are an abstraction at the app layer that packages code and dependencies together. 
 Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space. 
 Containers take up less space than VMs (container images are typically tens of MBs in size), can handle more applications and require fewer VMs and Operating systems.
-
+## The Docker daemon 
+The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
 
 
 
