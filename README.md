@@ -2,6 +2,8 @@
 Docker is an operating system for containers. 
 Similar to how a virtual machine virtualizes (removes the need to directly manage) server hardware, containers virtualize the operating system of a server. 
 Docker is installed on each server and provides simple commands you can use to build, start, or stop containers.
+![image](https://github.com/user-attachments/assets/76d56f45-9bc8-4180-b23f-a20458995964)  
+
 ## VM
 In its simplest form, a virtual machine, or VM, is a digitized version of a physical computer. Virtual machines can run programs and operating systems, store data, connect to networks, and do other computing functions. However, a VM uses entirely virtual resources instead of physical components.
 A VM lets you run a virtual machine on any hardware. Docker lets you run an application on any operating system. It uses isolated user-space instances known as containers.
@@ -22,7 +24,10 @@ Containers take up less space than VMs (container images are typically tens of M
 ## The Docker daemon 
 The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
 
-Other reference: https://www.youtube.com/watch?v=H8Lyj2D_cWo
+Other reference: https://www.youtube.com/watch?v=H8Lyj2D_cWo  
+https://youtu.be/C-bX86AgyiA?si=UQKV5zH3SfmUxjpU  
+https://youtu.be/gAkwW2tuIqE?si=koVBI2h6yEsZJNxb  
+https://youtu.be/rIrNIzy6U_g?si=8mmW0p9rnMqXmlcF  
 
 
 
