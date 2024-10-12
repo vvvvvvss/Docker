@@ -22,7 +22,7 @@ Containers take up less space than VMs (container images are typically tens of M
 ## The Docker daemon 
 The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
 
-
+Other reference: https://www.youtube.com/watch?v=H8Lyj2D_cWo
 
 
 
