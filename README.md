@@ -37,6 +37,19 @@ The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker
   save        -Save one or more images to a tar archive (streamed to STDOUT by default)  
   tag         -Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE  
 
+### Port Mapping
+Port mapping in Docker refers to the process of linking a port on the host machine to a port inside a Docker container. 
+This enables applications running inside a container to be accessible from outside the container, such as from the host system or other devices on the network.
+
+
+Docker containers are isolated environments with their own network interfaces. 
+By default, services inside the container are only accessible from within the container itself. 
+Port mapping allows external systems (like a browser or API client) to communicate with these services by mapping a host port to the container's internal port.  
+Host port: A port on the machine running Docker (e.g., your computer).  
+Container port: A port inside the Docker container where the application or service is listening (e.g., a web server running on port 80 inside the container).  
+When you run a container with port mapping, traffic to the host port gets forwarded to the container port.  
+
+
 Other reference: https://www.youtube.com/watch?v=H8Lyj2D_cWo  
 https://www.youtube.com/watch?v=pTFZFxd4hOI  
 https://youtu.be/C-bX86AgyiA?si=UQKV5zH3SfmUxjpU  
