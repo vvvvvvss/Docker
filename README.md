@@ -47,7 +47,10 @@ By default, services inside the container are only accessible from within the co
 Port mapping allows external systems (like a browser or API client) to communicate with these services by mapping a host port to the container's internal port.  
 Host port: A port on the machine running Docker (e.g., your computer).  
 Container port: A port inside the Docker container where the application or service is listening (e.g., a web server running on port 80 inside the container).  
-When you run a container with port mapping, traffic to the host port gets forwarded to the container port.  
+When you run a container with port mapping, traffic to the host port gets forwarded to the container port.    
+  
+
+![image](https://github.com/user-attachments/assets/6b733060-9939-4388-9c88-6cc71b16d575)
 
 
 Other reference: https://www.youtube.com/watch?v=H8Lyj2D_cWo  
