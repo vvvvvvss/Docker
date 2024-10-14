@@ -38,6 +38,7 @@ The Docker daemon ( dockerd ) listens for Docker API requests and manages Docker
   tag         -Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE  
 
 Other reference: https://www.youtube.com/watch?v=H8Lyj2D_cWo  
+https://www.youtube.com/watch?v=pTFZFxd4hOI  
 https://youtu.be/C-bX86AgyiA?si=UQKV5zH3SfmUxjpU  
 https://youtu.be/gAkwW2tuIqE?si=koVBI2h6yEsZJNxb  
 https://youtu.be/rIrNIzy6U_g?si=8mmW0p9rnMqXmlcF  
