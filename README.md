@@ -15,6 +15,7 @@ It also supports containerization of existing apps, thereby becoming the foundat
 Containers are an abstraction at the app layer that packages code and dependencies together. 
 Multiple containers can run on the same machine and share the OS kernel with other containers, each running as isolated processes in user space. 
 Containers take up less space than VMs (container images are typically tens of MBs in size), can handle more applications and require fewer VMs and Operating systems.
+
 ## Docker Container
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. 
 A Docker container image is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings.
@@ -53,7 +54,9 @@ When you run a container with port mapping, traffic to the host port gets forwar
 ![image](https://github.com/user-attachments/assets/6b733060-9939-4388-9c88-6cc71b16d575)
 
 
-Other reference: https://www.youtube.com/watch?v=H8Lyj2D_cWo  
+Other reference: 
+https://docs.docker.com/get-started/introduction/
+https://www.youtube.com/watch?v=H8Lyj2D_cWo  
 https://www.youtube.com/watch?v=pTFZFxd4hOI  
 https://youtu.be/C-bX86AgyiA?si=UQKV5zH3SfmUxjpU  
 https://youtu.be/gAkwW2tuIqE?si=koVBI2h6yEsZJNxb  
